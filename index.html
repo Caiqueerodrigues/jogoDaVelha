@@ -14,43 +14,45 @@
         <title>Jogo da Velha</title>
     </head>
     <body>
-        <h1 class="text-center">Jogo da velha JavaScript</h1>
-        <section class="text-center ">
-            <button id="btnIniciar" class="btn btn-outline-danger">Iniciar</button>
-        </section>
-        <main data-theme="dark">
-            <div class="container d-flex">
-                <div class="visor text-center" id="visor">
+        <div class="container">
+            <h1 class="text-center">Jogo da velha JavaScript</h1>
+            <section class="text-center ">
+                <button id="btnIniciar" class="btn btn-outline-danger">Iniciar</button>
+            </section>
+            <main data-theme="dark">
+                <div class="container d-flex">
+                    <div class="visor text-center" id="visor">
+                    </div>
+                    <div class="form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="theme" checked>
+                        <label class="form-check-label" for="theme" id="themeLabel">Tema Escuro</label>
+                    </div>
                 </div>
-                <div class="form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" id="theme" checked>
-                    <label class="form-check-label" for="theme" id="themeLabel">Tema Escuro</label>
+                <div id="placar">
                 </div>
-            </div>
-            <div id="placar">
-            </div>
-            <div class="jogo">
-                <button value="" id="casaA" class="casa casaA text-center"> </button>
-                <button value="" id="casaB" class="casa casaB text-center"> </button>
-                <button value="" id="casaC" class="casa casaC text-center"> </button>
-            </div>
-            <div class="jogo2">
-                <button value="" id="casaD" class="casa casaD text-center"> </button>
-                <button value="" id="casaE" class="casa casaE text-center"> </button>
-                <button value="" id="casaF" class="casa casaF text-center"> </button>
-            </div>
-            <div class="jogo3">
-                <button value="" id="casaG" class="casa casaG text-center"> </button>
-                <button value="" id="casaH" class="casa casaH text-center"> </button>
-                <button value="" id="casaI" class="casa casaI text-center"> </button>
-            </div>
-        </main>
+                <div class="jogo">
+                    <button value="" id="casaA" class="casa casaA text-center"> </button>
+                    <button value="" id="casaB" class="casa casaB text-center"> </button>
+                    <button value="" id="casaC" class="casa casaC text-center"> </button>
+                </div>
+                <div class="jogo2">
+                    <button value="" id="casaD" class="casa casaD text-center"> </button>
+                    <button value="" id="casaE" class="casa casaE text-center"> </button>
+                    <button value="" id="casaF" class="casa casaF text-center"> </button>
+                </div>
+                <div class="jogo3">
+                    <button value="" id="casaG" class="casa casaG text-center"> </button>
+                    <button value="" id="casaH" class="casa casaH text-center"> </button>
+                    <button value="" id="casaI" class="casa casaI text-center"> </button>
+                </div>
+            </main>
+        </div>
         <hr>
         <footer class="text-center footer navbar-fixed-bottom">
             <a class="icon" href="https://www.linkedin.com/in/caique-rodrigues-a113ab249/" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
             <a class="icon" href="https://wa.link/kdvxyw" target="_blank"><i class="bi bi-whatsapp"></i> Whatsapp</a>
             <a class="icon" href="https://github.com/Caiqueerodrigues" target="_blank"><i class="bi bi-github"></i> GitHub</a>
-            <a class="icon" href="https://www.instagram.com/caiqueerodrigues/" target="_blank"><i class="bi bi-instagram"></i> instagram</a><br>
+            <a class="icon" href="https://www.instagram.com/caiqueerodrigues/" target="_blank"><i class="bi bi-instagram"></i> Instagram</a><br>
             <p>&copy;Caique Rodrigues - 2023</p> 
         </footer>
 
