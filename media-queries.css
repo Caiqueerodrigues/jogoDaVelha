@@ -1,6 +1,10 @@
 @charset "utf-8";
 
 @media (max-width: 767px) {
+    section {
+        height: 60vh !important;
+    }
+
     h1 {
         margin-top: 20px;
     }
@@ -42,9 +46,8 @@
 }
 
 @media (min-width: 768px) {
-    body {
-        width: 80vw;
-        margin: auto;
+    hr {
+        width: 100vw;
     }
     #visor {
         max-width: 30vw;
