@@ -1,5 +1,5 @@
 let main = document.querySelector(`main`)
-let section = document.querySelector(`sectio
+let section = document.querySelector(`sectio`)
 let visor = document.getElementById(`visor`)
 let placar = document.getElementById(`placar`)
 
