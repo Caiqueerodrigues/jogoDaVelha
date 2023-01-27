@@ -1,5 +1,5 @@
 let main = document.querySelector(`main`)
-let section = document.querySelector(`sectio`)
+let section = document.querySelector(`section`)
 let visor = document.getElementById(`visor`)
 let placar = document.getElementById(`placar`)
 
@@ -605,4 +605,5 @@ btnJogarNovamente.addEventListener(`click`, function () {
     quemComeça()
     visor.innerText = comecar
     vencedorPartida = ``
+    indice = 0
 })
